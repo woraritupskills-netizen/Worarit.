@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สาขาวิชาเทคโนโลยีธุรกิจดิจิทัล - วิทยาลัยอาชีวศึกษาสุพรรณบุรี</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="site-header" id="siteHeader">
+        <div class="container header-inner">
+            <a href="#home" class="logo">
+                <span class="logo-mark" aria-hidden="true">D</span>
+                <span class="logo-text">DBT <span class="sub-logo">Suphanburi</span></span>
+            </a>
+
+            <button class="nav-toggle" id="navToggle" aria-label="เปิดเมนู" aria-expanded="false" aria-controls="mainNav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="#home">หน้าแรก</a></li>
+                    <li><a href="#about">เกี่ยวกับสาขา</a></li>
+                    <li><a href="#teachers">คณะครู</a></li>
+                    <li><a href="#rooms">ห้องเรียน</a></li>
+                    <li><a href="#project-info">ข้อมูลโครงงาน</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section id="home" class="hero">
+        <div class="hero-bg" aria-hidden="true">
+            <span class="glow glow-1"></span>
+            <span class="glow glow-2"></span>
+            <span class="shape shape-ring"></span>
+            <span class="shape shape-square"></span>
+            <span class="shape shape-dots"></span>
+        </div>
+
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <h2 class="hero-welcome">ยินดีต้อนรับสู่</h2>
+                <h1>สาขาวิชาเทคโนโลยีธุรกิจดิจิทัล</h1>
+                <h3>วิทยาลัยอาชีวศึกษาสุพรรณบุรี</h3>
+                <p>Digital Business Technology Department<br>Suphanburi Vocational College</p>
+                <div class="hero-actions">
+                    <a href="#about" class="btn btn-primary">ทำความรู้จักสาขาเรา</a>
+                    <a href="#teachers" class="btn btn-outline">ดูบุคลากร</a>
+                </div>
+            </div>
+
+            <div class="hero-visual" aria-hidden="true">
+                <svg class="hero-art" viewBox="0 0 520 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ภาพประกอบเทคโนโลยีและการศึกษา">
+                    <defs>
+                        <linearGradient id="gScreen" x1="0" y1="0" x2="1" y2="1">
+                            <stop offset="0" stop-color="#EAF5FF"/>
+                            <stop offset="1" stop-color="#FFFFFF"/>
+                        </linearGradient>
+                        <linearGradient id="gBar" x1="0" y1="1" x2="0" y2="0">
+                            <stop offset="0" stop-color="#2798E8"/>
+                            <stop offset="1" stop-color="#7CC4F5"/>
+                        </linearGradient>
+                        <linearGradient id="gCap" x1="0" y1="0" x2="1" y2="1">
+                            <stop offset="0" stop-color="#123B75"/>
+                            <stop offset="1" stop-color="#2798E8"/>
+                        </linearGradient>
+                    </defs>
+
+                    <!-- เงาพื้น -->
+                    <ellipse cx="260" cy="405" rx="190" ry="16" fill="rgba(0,0,0,0.18)"/>
+
+                    <!-- โครงข่ายเทคโนโลยี -->
+                    <g class="float-slow" stroke="rgba(255,255,255,0.45)" stroke-width="2" fill="none">
+                        <line x1="46" y1="150" x2="90" y2="196"/>
+                        <line x1="90" y1="196" x2="60" y2="244"/>
+                        <line x1="46" y1="150" x2="30" y2="104"/>
+                    </g>
+                    <g class="float-slow" fill="#FFFFFF">
+                        <circle cx="46" cy="150" r="9" opacity="0.9"/>
+                        <circle cx="90" cy="196" r="6" opacity="0.7"/>
+                        <circle cx="60" cy="244" r="8" opacity="0.8"/>
+                        <circle cx="30" cy="104" r="6" opacity="0.6"/>
+                    </g>
+
+                    <!-- จอคอมพิวเตอร์ -->
+                    <g>
+                        <path d="M240 325 h40 l10 50 h-60 z" fill="#CFE3F7"/>
+                        <rect x="190" y="370" width="140" height="14" rx="7" fill="#FFFFFF" opacity="0.92"/>
+                        <rect x="80" y="90" width="360" height="235" rx="20" fill="#FFFFFF"/>
+                        <rect x="96" y="106" width="328" height="203" rx="12" fill="url(#gScreen)"/>
+
+                        <circle cx="116" cy="124" r="5" fill="#2798E8"/>
+                        <circle cx="132" cy="124" r="5" fill="#2798E8" opacity="0.6"/>
+                        <circle cx="148" cy="124" r="5" fill="#2798E8" opacity="0.3"/>
+
+                        <rect x="108" y="142" width="60" height="154" rx="8" fill="#123B75" opacity="0.08"/>
+                        <rect x="118" y="154" width="40" height="8" rx="4" fill="#123B75" opacity="0.25"/>
+                        <rect x="118" y="172" width="32" height="8" rx="4" fill="#123B75" opacity="0.18"/>
+                        <rect x="118" y="190" width="38" height="8" rx="4" fill="#123B75" opacity="0.18"/>
+
+                        <rect x="190" y="240" width="24" height="50" rx="6" fill="url(#gBar)"/>
+                        <rect x="224" y="210" width="24" height="80" rx="6" fill="url(#gBar)"/>
+                        <rect x="258" y="226" width="24" height="64" rx="6" fill="url(#gBar)"/>
+                        <rect x="292" y="186" width="24" height="104" rx="6" fill="url(#gBar)"/>
+
+                        <rect x="186" y="146" width="130" height="10" rx="5" fill="#123B75" opacity="0.2"/>
+                        <rect x="186" y="164" width="86" height="8" rx="4" fill="#123B75" opacity="0.12"/>
+
+                        <rect x="332" y="142" width="80" height="34" rx="9" fill="#123B75"/>
+                        <rect x="342" y="154" width="36" height="6" rx="3" fill="#FFFFFF" opacity="0.8"/>
+                        <rect x="342" y="164" width="22" height="5" rx="2.5" fill="#FFFFFF" opacity="0.5"/>
+
+                        <polyline points="340,262 362,240 386,250 410,208" fill="none" stroke="#123B75" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="340" cy="262" r="5" fill="#FFFFFF" stroke="#123B75" stroke-width="3"/>
+                        <circle cx="362" cy="240" r="5" fill="#FFFFFF" stroke="#123B75" stroke-width="3"/>
+                        <circle cx="386" cy="250" r="5" fill="#FFFFFF" stroke="#123B75" stroke-width="3"/>
+                        <circle cx="410" cy="208" r="5" fill="#2798E8" stroke="#123B75" stroke-width="3"/>
+                    </g>
+
+                    <!-- หมวกรับปริญญา -->
+                    <g class="float">
+                        <path d="M350 86 v34 c0 16 100 16 100 0 v-34 l-50 24z" fill="#0C2A55"/>
+                        <polygon points="400,34 486,70 400,106 314,70" fill="url(#gCap)"/>
+                        <polygon points="400,34 486,70 400,106 314,70" fill="none" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="2"/>
+                        <line x1="470" y1="76" x2="470" y2="122" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+                        <circle cx="470" cy="126" r="6" fill="#FFFFFF"/>
+                    </g>
+
+                    <!-- การ์ดลอย -->
+                    <g class="float-slow">
+                        <rect x="24" y="290" width="124" height="70" rx="16" fill="#FFFFFF" opacity="0.96"/>
+                        <circle cx="56" cy="325" r="16" fill="#2798E8"/>
+                        <path d="M48 325 l6 6 l11 -12" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <rect x="80" y="313" width="52" height="8" rx="4" fill="#123B75" opacity="0.7"/>
+                        <rect x="80" y="329" width="36" height="7" rx="3.5" fill="#123B75" opacity="0.25"/>
+                    </g>
+
+                    <!-- ดาว/ประกายเล็ก -->
+                    <g fill="#FFFFFF" opacity="0.85">
+                        <circle cx="490" cy="250" r="5"/>
+                        <circle cx="470" cy="300" r="3"/>
+                        <circle cx="500" cy="330" r="4"/>
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= STATISTICS ================= -->
+    <section id="stats" class="stats">
+        <div class="container">
+            <div class="stats-grid">
+
+                <div class="stat-card reveal">
+                    <div class="stat-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="9" cy="8" r="3.5"/>
+                            <path d="M2.5 20c0-3.6 2.9-6 6.5-6s6.5 2.4 6.5 6"/>
+                            <circle cx="17.5" cy="9" r="2.5"/>
+                            <path d="M17.5 14c2.5 0 4 1.7 4 4.5"/>
+                        </svg>
+                    </div>
+                    <div class="stat-number">
+                        <span class="counter" data-count="6">6</span><span class="stat-unit">คน</span>
+                    </div>
+                    <div class="stat-label">บุคลากรทางการศึกษา</div>
+                </div>
+
+                <div class="stat-card reveal">
+                    <div class="stat-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="4" width="18" height="12" rx="2"/>
+                            <path d="M8 20h8M12 16v4"/>
+                        </svg>
+                    </div>
+                    <div class="stat-number">
+                        <span class="counter" data-count="6">6</span><span class="stat-unit">ห้อง</span>
+                    </div>
+                    <div class="stat-label">ห้องปฏิบัติการและห้องเรียน</div>
+                </div>
+
+                <div class="stat-card reveal">
+                    <div class="stat-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/>
+                        </svg>
+                    </div>
+                    <div class="stat-number">
+                        <span class="counter" data-count="2">2</span><span class="stat-unit">คน</span>
+                    </div>
+                    <div class="stat-label">ผู้จัดทำโครงงาน</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= QUICK ACCESS ================= -->
+    <section id="quick-access" class="quick-access section-padding-sm">
+        <div class="container">
+            <div class="quick-grid">
+
+                <a href="#about" class="quick-card reveal">
+                    <span class="quick-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 10.5L12 4l9 6.5"/>
+                            <path d="M5 9.5V20h14V9.5"/>
+                            <path d="M10 20v-5h4v5"/>
+                        </svg>
+                    </span>
+                    <span class="quick-title">ข้อมูลสาขา</span>
+                    <span class="quick-sub">ที่มาและแนวคิด</span>
+                    <span class="quick-arrow" aria-hidden="true">&rarr;</span>
+                </a>
+
+                <a href="#teachers" class="quick-card reveal">
+                    <span class="quick-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="8" r="4"/>
+                            <path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/>
+                        </svg>
+                    </span>
+                    <span class="quick-title">บุคลากร</span>
+                    <span class="quick-sub">บุคลากรทางการศึกษา</span>
+                    <span class="quick-arrow" aria-hidden="true">&rarr;</span>
+                </a>
+
+                <a href="#rooms" class="quick-card reveal">
+                    <span class="quick-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="4" width="18" height="12" rx="2"/>
+                            <path d="M8 20h8M12 16v4"/>
+                        </svg>
+                    </span>
+                    <span class="quick-title">ห้องเรียน</span>
+                    <span class="quick-sub">ห้องปฏิบัติการและห้องเรียน</span>
+                    <span class="quick-arrow" aria-hidden="true">&rarr;</span>
+                </a>
+
+                <a href="#project-info" class="quick-card reveal">
+                    <span class="quick-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M7 3h8l4 4v14H7z"/>
+                            <path d="M15 3v4h4"/>
+                            <path d="M10 12h6M10 16h6"/>
+                        </svg>
+                    </span>
+                    <span class="quick-title">ข้อมูลโครงงาน</span>
+                    <span class="quick-sub">โครงงานพัฒนาสมรรถนะวิชาชีพ</span>
+                    <span class="quick-arrow" aria-hidden="true">&rarr;</span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="section-padding bg-pattern">
+        <div class="container">
+            <h2 class="section-title reveal">ที่มาและแนวคิด</h2>
+            <div class="about-content glass-card reveal">
+                <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+                <p>
+                    เว็บไซต์นี้จัดทำขึ้นเพื่อเป็นศูนย์รวมข้อมูลหลักสูตร รายวิชา กิจกรรมของนักศึกษา และผลงานต่างๆ 
+                    เพื่อให้ผู้เข้าชมเห็นภาพรวมของสาขาเทคโนโลยีธุรกิจดิจิทัลอย่างชัดเจน โดยข้อมูลที่นำเสนอมีความถูกต้องตามมาตรฐานทางวิชาการ
+                </p>
+                <p>
+                    เรามุ่งหวังให้เว็บไซต์นี้ช่วยประชาสัมพันธ์สาขาแก่นักเรียน นักศึกษา และผู้ที่สนใจศึกษาต่อ 
+                    ให้ได้รับทราบถึงความน่าสนใจและประโยชน์ของสาขาเรา ในยุคดิจิทัลที่เทคโนโลยีมีบทบาทสำคัญ
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= TEACHERS ================= -->
+    <section id="teachers" class="bg-light bg-pattern section-padding">
+        <div class="container">
+            <h2 class="section-title reveal">บุคลากรทางการศึกษา</h2>
+
+            <div class="teacher-head-container reveal">
+                <div class="card teacher-card featured">
+                    <div class="card-img-placeholder">
+                        <img src="https://www.spvc.ac.th/posonalstd/bcom/kansiree2.jpg" alt="นางกานต์สิรี อู่อรุณ">
+                    </div>
+                    <h3>นางกานต์สิรี อู่อรุณ</h3>
+                    <span class="badge badge-head">หัวหน้าสาขาวิชาคอมพิวเตอร์ธุรกิจ</span>
+                </div>
+            </div>
+
+            <div class="grid-container">
+
+                <div class="card teacher-card reveal">
+                    <div class="card-img-placeholder">
+                        <img src="https://www.spvc.ac.th/posonalstd/pro/kitiphong2.jpg" alt="นายกิติพงศ์ โกวิทวณิชชา">
+                    </div>
+                    <h3>นายกิติพงศ์ โกวิทวณิชชา</h3>
+                    <span class="badge">ครูสาขาวิชาคอมพิวเตอร์ธุรกิจ</span>
+                </div>
+
+                <div class="card teacher-card reveal">
+                    <div class="card-img-placeholder">
+                        <img src="https://www.spvc.ac.th/posonalstd/bcom/nutthawat2.jpg" alt="ผศ.ดร.ณัฐวรรธน์ ศิริเตชภัทร์">
+                    </div>
+                    <h3>ผศ.ดร.ณัฐวรรธน์ ศิริเตชภัทร์</h3>
+                    <span class="badge">ครูสาขาวิชาคอมพิวเตอร์ธุรกิจ</span>
+                </div>
+
+                <div class="card teacher-card reveal">
+                    <div class="card-img-placeholder">
+                        <img src="https://www.spvc.ac.th/posonalstd/bcom/paranya2.png" alt="นางสาวภรัณยา มิ่งสมร">
+                    </div>
+                    <h3>นางสาวภรัณยา มิ่งสมร</h3>
+                    <span class="badge">ครูสาขาวิชาคอมพิวเตอร์ธุรกิจ</span>
+                </div>
+
+                <div class="card teacher-card reveal">
+                    <div class="card-img-placeholder">
+                        <img src="https://www.spvc.ac.th/posonalstd/bcom/tibpalad2.jpg" alt="นางสาวทิพยรัตน์ อาชนะชัย">
+                    </div>
+                    <h3>นางสาวทิพยรัตน์ อาชนะชัย</h3>
+                    <span class="badge">ครูสาขาวิชาคอมพิวเตอร์ธุรกิจ</span>
+                </div>
+
+                <div class="card teacher-card reveal">
+                    <div class="card-img-placeholder">
+                        <img src="https://www.spvc.ac.th/posonalspvc/office/24.jpg" alt="นางสาวสุวิมล เปรมปรีดิ์">
+                    </div>
+                    <h3>นางสาวสุวิมล เปรมปรีดิ์</h3>
+                    <span class="badge">ครูสาขาวิชาคอมพิวเตอร์ธุรกิจ</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= ROOMS / GALLERY ================= -->
+    <section id="rooms" class="section-padding bg-pattern">
+        <div class="container">
+            <h2 class="section-title reveal">ห้องปฏิบัติการและห้องเรียน</h2>
+            <div class="grid-container gallery-grid">
+
+                <figure class="card room-card reveal">
+                    <div class="room-media">
+                        <div class="room-img-placeholder">รูปห้องเรียน 1</div>
+                    </div>
+                    <div class="room-body">
+                        <h3>ห้องปฏิบัติการคอมพิวเตอร์ 1</h3>
+                        <p>รายละเอียดอุปกรณ์ในห้อง...</p>
+                    </div>
+                </figure>
+
+                <figure class="card room-card reveal">
+                    <div class="room-media">
+                        <div class="room-img-placeholder">รูปห้องเรียน 2</div>
+                    </div>
+                    <div class="room-body">
+                        <h3>ห้อง Smart Classroom</h3>
+                        <p>รายละเอียดอุปกรณ์ในห้อง...</p>
+                    </div>
+                </figure>
+
+                <figure class="card room-card reveal">
+                    <div class="room-media">
+                        <div class="room-img-placeholder">รูปห้องเรียน 3</div>
+                    </div>
+                    <div class="room-body">
+                        <h3>ห้องปฏิบัติการเครือข่าย</h3>
+                        <p>รายละเอียด...</p>
+                    </div>
+                </figure>
+
+                <figure class="card room-card reveal">
+                    <div class="room-media">
+                        <div class="room-img-placeholder">รูปห้องเรียน 4</div>
+                    </div>
+                    <div class="room-body">
+                        <h3>ห้องเรียนทฤษฎี 1</h3>
+                        <p>รายละเอียด...</p>
+                    </div>
+                </figure>
+
+                <figure class="card room-card reveal">
+                    <div class="room-media">
+                        <div class="room-img-placeholder">รูปห้องเรียน 5</div>
+                    </div>
+                    <div class="room-body">
+                        <h3>ห้องเรียนทฤษฎี 2</h3>
+                        <p>รายละเอียด...</p>
+                    </div>
+                </figure>
+
+                <figure class="card room-card reveal">
+                    <div class="room-media">
+                        <div class="room-img-placeholder">รูปห้องเรียน 6</div>
+                    </div>
+                    <div class="room-body">
+                        <h3>ห้องประชุมแผนก</h3>
+                        <p>รายละเอียด...</p>
+                    </div>
+                </figure>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PROJECT INFO ================= -->
+    <section id="project-info" class="bg-dark section-padding">
+        <div class="bg-dark-deco" aria-hidden="true">
+            <span class="deco-circle deco-1"></span>
+            <span class="deco-circle deco-2"></span>
+        </div>
+        <div class="container text-white">
+            <h2 class="section-title text-white reveal">รายละเอียดโครงงานพัฒนาสมรรถนะวิชาชีพ</h2>
+
+            <div class="project-details">
+                <div class="detail-box reveal">
+                    <h3>วัตถุประสงค์ (Objectives)</h3>
+                    <ul>
+                        <li>เพื่อสร้างหรือพัฒนาเว็บไซต์สาขาวิชาเทคโนโลยีธุรกิจดิจิทัล</li>
+                        <li>เพื่อศึกษาความพึงพอใจในการใช้งานเว็บไซต์</li>
+                    </ul>
+                </div>
+                <div class="detail-box reveal">
+                    <h3>เป้าหมาย (Goals)</h3>
+                    <ul>
+                        <li>เชิงปริมาณ: มีผู้เข้าชมอย่างน้อย 50 คน ภายใน 1 เดือน</li>
+                        <li>เชิงคุณภาพ: ผู้เข้าชมเข้าใจข้อมูลสาขาได้ชัดเจน และผู้จัดทำได้พัฒนาทักษะการเขียนเว็บ</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="team-section reveal">
+                <h3>ผู้จัดทำโครงงาน (Project Members)</h3>
+                <p>นักศึกษาระดับชั้น ปวช. สาขาวิชาเทคโนโลยีธุรกิจดิจิทัล ปีการศึกษา 2568</p>
+                <div class="members">
+                    <div class="member">
+                        <strong>นายวรฤทธิ์ พลายสิงห์</strong>
+                        <span>หัวหน้ากลุ่ม</span>
+                    </div>
+                    <div class="member">
+                        <strong>นายธีรภัทร ดีเทียน</strong>
+                        <span>รองหัวหน้ากลุ่ม</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo">DBT <span>Suphanburi</span></a>
+                    <h4>สาขาวิชาเทคโนโลยีธุรกิจดิจิทัล</h4>
+                    <p>
+                        เว็บไซต์นี้จัดทำขึ้นเพื่อเป็นศูนย์รวมข้อมูลหลักสูตร รายวิชา กิจกรรมของนักศึกษา และผลงานต่างๆ 
+                        ของสาขาวิชาเทคโนโลยีธุรกิจดิจิทัล
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>เมนูลัด</h4>
+                    <ul>
+                        <li><a href="#home">หน้าแรก</a></li>
+                        <li><a href="#about">เกี่ยวกับสาขา</a></li>
+                        <li><a href="#teachers">คณะครู</a></li>
+                        <li><a href="#rooms">ห้องเรียน</a></li>
+                        <li><a href="#project-info">ข้อมูลโครงงาน</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-info">
+                    <h4>สถานศึกษา</h4>
+                    <ul>
+                        <li>วิทยาลัยอาชีวศึกษาสุพรรณบุรี</li>
+                        <li>สถาบันการอาชีวศึกษาภาคกลาง 4</li>
+                        <li>สาขาวิชาเทคโนโลยีธุรกิจดิจิทัล</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 สาขาวิชาเทคโนโลยีธุรกิจดิจิทัล วิทยาลัยอาชีวศึกษาสุพรรณบุรี</p>
+                <p>สถาบันการอาชีวศึกษาภาคกลาง 4</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ================= BACK TO TOP ================= -->
+    <button class="back-to-top" id="backToTop" aria-label="กลับขึ้นด้านบน">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M6 15l6-6 6 6"/>
+        </svg>
+    </button>
+
+    <!-- ================= LIGHTBOX ================= -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="ดูภาพขยาย" aria-hidden="true">
+        <button class="lightbox-close" id="lightboxClose" aria-label="ปิด">&times;</button>
+        <figure class="lightbox-figure">
+            <img id="lightboxImg" src="" alt="">
+            <figcaption id="lightboxCaption"></figcaption>
+        </figure>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
